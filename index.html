@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Kumar Agrawal | Data Scientist Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* Dark blue-gray background */
+            color: #d1d5db; /* Light gray text */
+        }
+        .glass-effect {
+            background: rgba(31, 41, 55, 0.5); /* Semi-transparent dark gray */
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .accent-color {
+            color: #60a5fa; /* A nice shade of blue */
+        }
+        .accent-bg {
+            background-color: #3b82f6;
+        }
+        .accent-bg-hover:hover {
+            background-color: #2563eb;
+        }
+        .section-heading {
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .section-subheading {
+            font-size: 1.25rem;
+            color: #9ca3af;
+            text-align: center;
+            margin-bottom: 4rem;
+            max-width: 3xl;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .icon-circle {
+            background-color: rgba(59, 130, 246, 0.1);
+            border-radius: 9999px;
+            padding: 0.75rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-effect">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white">Shubham Kumar Agrawal</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-300 hover:text-blue-400 transition-colors">About</a>
+                <a href="#experience" class="text-gray-300 hover:text-blue-400 transition-colors">Experience</a>
+                <a href="#projects" class="text-gray-300 hover:text-blue-400 transition-colors">Projects</a>
+                <a href="#skills" class="text-gray-300 hover:text-blue-400 transition-colors">Skills</a>
+                <a href="#contact" class="text-gray-300 hover:text-blue-400 transition-colors">Contact</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-white">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+             <a href="#about" class="block py-2 text-gray-300 hover:text-blue-400 transition-colors">About</a>
+             <a href="#experience" class="block py-2 text-gray-300 hover:text-blue-400 transition-colors">Experience</a>
+             <a href="#projects" class="block py-2 text-gray-300 hover:text-blue-400 transition-colors">Projects</a>
+             <a href="#skills" class="block py-2 text-gray-300 hover:text-blue-400 transition-colors">Skills</a>
+             <a href="#contact" class="block py-2 text-gray-300 hover:text-blue-400 transition-colors">Contact</a>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <!-- Hero Section -->
+        <section id="hero" class="py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">
+                    Shubham Kumar Agrawal
+                </h1>
+                <p class="mt-4 text-xl md:text-2xl accent-color font-medium">
+                    M.S. in Data Science Student @ University at Buffalo
+                </p>
+                <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-400">
+                    Accomplished Data Analyst with 4+ years of experience transforming complex data into business strategy. Now leveraging my background in a Master's program to build advanced machine learning solutions.
+                </p>
+                <div class="mt-8 flex justify-center items-center space-x-6">
+                    <a href="https://www.linkedin.com/in/shubham-kumar-agrawal/" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors">
+                        <i data-lucide="linkedin" class="w-8 h-8"></i>
+                    </a>
+                    <a href="#" target="_blank" class="text-gray-400 hover:text-blue-400 transition-colors"> <!-- Add your GitHub Link -->
+                        <i data-lucide="github" class="w-8 h-8"></i>
+                    </a>
+                    <a href="mailto:agrawal.kshubham@gmail.com" class="text-gray-400 hover:text-blue-400 transition-colors">
+                        <i data-lucide="mail" class="w-8 h-8"></i>
+                    </a>
+                </div>
+                 <div class="mt-10">
+                    <a href="#" class="accent-bg text-white font-bold py-3 px-8 rounded-full text-lg accent-bg-hover transition-transform transform hover:scale-105 inline-block">
+                        Download Resume
+                    </a> <!-- Add link to your resume PDF -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-20 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="section-heading text-white">About Me</h2>
+                <div class="max-w-4xl mx-auto text-center text-lg text-gray-300 space-y-6">
+                    <p>
+                        I'm a passionate data professional currently pursuing my Master's in Data Science at the University at Buffalo. My journey began with a foundation in electronics and communication, which cultivated my problem-solving mindset.
+                    </p>
+                    <p>
+                        With over four years in the industry as a Data Analyst and Senior Business Analyst, I've honed my skills in Python, SQL, and Tableau, focusing on automating data pipelines, developing insightful BI solutions, and leading R&D initiatives. I thrive on uncovering the stories hidden within data and using them to drive impactful business decisions.
+                    </p>
+                     <p>
+                        I am now eager to transition into a Data Scientist role where I can apply my academic knowledge in predictive modeling and machine learning to build intelligent systems that solve real-world challenges.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="section-heading text-white">Professional Experience</h2>
+                <div class="relative max-w-3xl mx-auto">
+                    <!-- Timeline Line -->
+                    <div class="absolute left-1/2 -ml-0.5 w-1 h-full bg-gray-700"></div>
+
+                    <!-- Pure Storage -->
+                    <div class="relative mb-12">
+                        <div class="absolute w-8 h-8 bg-blue-500 rounded-full left-1/2 -ml-4 border-4 border-gray-800"></div>
+                        <div class="ml-auto w-2/5 pl-10 text-right">
+                           <h3 class="text-xl font-bold text-white">Senior Business Analyst</h3>
+                           <p class="text-md text-gray-400">Pure Storage</p>
+                           <p class="text-sm text-gray-500">Sep 2024 – Present</p>
+                        </div>
+                        <div class="mr-auto w-2/5 pr-10">
+                            <p class="text-gray-300 mt-2">Architect and deploy interactive Tableau dashboards on Snowflake, translating raw data into actionable insights that guide executive-level strategic decisions.</p>
+                        </div>
+                    </div>
+
+                    <!-- BlueOptima -->
+                    <div class="relative mb-12">
+                        <div class="absolute w-8 h-8 bg-blue-500 rounded-full left-1/2 -ml-4 border-4 border-gray-800"></div>
+                         <div class="mr-auto w-2/5 pr-10 text-left">
+                           <h3 class="text-xl font-bold text-white">Data Analyst</h3>
+                           <p class="text-md text-gray-400">BlueOptima</p>
+                           <p class="text-sm text-gray-500">Oct 2020 – May 2024</p>
+                        </div>
+                        <div class="ml-auto w-2/5 pl-10 text-right">
+                             <ul class="list-disc list-outside text-gray-300 mt-2 space-y-2 text-left">
+                                <li>Spearheaded a flagship R&D initiative, engineering 25+ novel productivity metrics from client source code metadata.</li>
+                                <li>Engineered a Python automation pipeline that eliminated over 160 hours of manual reporting work per month (a 95% reduction).</li>
+                                <li>Delivered data-driven recommendations to external clients, directly influencing improvements in their SDLC processes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="section-heading text-white">Projects</h2>
+                <p class="section-subheading">A selection of my academic and personal projects. More to come from my Master's program!</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Placeholder Project 1 -->
+                    <div class="glass-effect rounded-lg p-6 flex flex-col hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2">
+                         <h3 class="text-xl font-bold text-white mb-2">Predictive Modeling for Customer Behavior</h3>
+                         <p class="text-gray-400 mb-4 flex-grow">Developed a logistic regression model to predict customer churn with high accuracy. Leveraged Scikit-learn for training and Pandas for extensive data preprocessing and feature engineering.</p>
+                         <div class="mt-auto">
+                            <div class="flex flex-wrap gap-2 mb-4">
+                               <span class="bg-blue-900/50 text-blue-300 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Python</span>
+                               <span class="bg-blue-900/50 text-blue-300 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Scikit-learn</span>
+                               <span class="bg-blue-900/50 text-blue-300 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Pandas</span>
+                            </div>
+                            <div class="flex space-x-4">
+                                <a href="#" class="text-blue-400 hover:text-blue-300 font-medium">View on GitHub &rarr;</a>
+                            </div>
+                         </div>
+                    </div>
+
+                    <!-- Terrain Smart Safety System -->
+                    <div class="glass-effect rounded-lg p-6 flex flex-col hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2">
+                         <h3 class="text-xl font-bold text-white mb-2">Terrain Smart Safety System</h3>
+                         <p class="text-gray-400 mb-4 flex-grow">Co-developed an award-winning IoT prototype to mitigate accidents on hazardous roads using an RFID sensor network and an emergency broadcast system. My role focused on backend logic and hardware programming.</p>
+                         <div class="mt-auto">
+                            <div class="flex flex-wrap gap-2 mb-4">
+                               <span class="bg-green-900/50 text-green-300 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Python</span>
+                               <span class="bg-green-900/50 text-green-300 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Arduino</span>
+                               <span class="bg-green-900/50 text-green-300 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Embedded C</span>
+                               <span class="bg-green-900/50 text-green-300 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">IoT</span>
+                            </div>
+                            <div class="flex space-x-4">
+                                <a href="https://doi.org/10.1007/978-981-10-8201-6_54" target="_blank" class="text-blue-400 hover:text-blue-300 font-medium">Read Publication &rarr;</a>
+                            </div>
+                         </div>
+                    </div>
+
+                    <!-- Placeholder Project 2 -->
+                    <div class="glass-effect rounded-lg p-6 flex flex-col hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2">
+                         <h3 class="text-xl font-bold text-white mb-2">Upcoming MS Project</h3>
+                         <p class="text-gray-400 mb-4 flex-grow">I am actively working on new projects as part of my coursework at the University at Buffalo. This space will feature my work in areas like Natural Language Processing and Deep Learning. Stay tuned!</p>
+                         <div class="mt-auto">
+                            <div class="flex flex-wrap gap-2 mb-4">
+                               <span class="bg-purple-900/50 text-purple-300 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">NLP</span>
+                               <span class="bg-purple-900/50 text-purple-300 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">PyTorch</span>
+                               <span class="bg-purple-900/50 text-purple-300 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Deep Learning</span>
+                            </div>
+                            <div class="flex space-x-4">
+                                <span class="text-gray-500 font-medium">Coming Soon</span>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Skills Section -->
+        <section id="skills" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="section-heading text-white">Core Competencies</h2>
+                 <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+
+                    <div class="flex flex-col items-center">
+                        <div class="icon-circle"><i data-lucide="code-2" class="w-10 h-10 text-blue-400"></i></div>
+                        <h3 class="text-lg font-bold mt-4 text-white">Languages</h3>
+                        <p class="text-gray-400">Python, SQL</p>
+                    </div>
+                     <div class="flex flex-col items-center">
+                        <div class="icon-circle"><i data-lucide="database" class="w-10 h-10 text-blue-400"></i></div>
+                        <h3 class="text-lg font-bold mt-4 text-white">Databases</h3>
+                        <p class="text-gray-400">Snowflake, Firebase</p>
+                    </div>
+                     <div class="flex flex-col items-center">
+                        <div class="icon-circle"><i data-lucide="bar-chart-3" class="w-10 h-10 text-blue-400"></i></div>
+                        <h3 class="text-lg font-bold mt-4 text-white">BI & Visualization</h3>
+                        <p class="text-gray-400">Tableau, Grafana</p>
+                    </div>
+                     <div class="flex flex-col items-center">
+                        <div class="icon-circle"><i data-lucide="brain-circuit" class="w-10 h-10 text-blue-400"></i></div>
+                        <h3 class="text-lg font-bold mt-4 text-white">ML & Libraries</h3>
+                        <p class="text-gray-400">Scikit-learn, Pandas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-gray-800/50">
+            <div class="container mx-auto px-6 text-center">
+                 <h2 class="section-heading text-white">Get In Touch</h2>
+                 <p class="section-subheading">I am actively seeking Data Scientist internship opportunities for Summer 2026 and would love to connect. Please feel free to reach out!</p>
+                 <a href="mailto:agrawal.kshubham@gmail.com"
+                   class="inline-block accent-bg text-white font-bold py-3 px-8 rounded-full text-lg accent-bg-hover transition-transform transform hover:scale-105">
+                    Say Hello
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6">
+        <div class="container mx-auto px-6 text-center text-gray-500">
+            <p>&copy; 2025 Shubham Kumar Agrawal. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        // Mobile menu toggle
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
